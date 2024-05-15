@@ -1,0 +1,91 @@
+.product_container {
+    width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 139px;
+
+    .product-content {
+        display: flex;
+        align-items: center;
+        width: 1110px;
+        height: 192px;
+        justify-content: space-between;
+        background-color: transparent;
+        margin: 0 auto;
+
+        .product-title {
+            width: 730px;
+            font-family: "Hind Siliguri", sans-serif;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 96px;
+            color: #292830;
+        }
+
+        .product-text {
+            width: 350px;
+            height: 156px;
+            font-family: "Hind Siliguri", sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 38.81px;
+            color: #BDBDBD;
+        }
+    }
+
+    .cards {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 80px;
+        
+
+        .card_item {
+            width: 350px;
+            height: 350px;
+            border-radius: 12px;
+            box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.04);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transition: box-shadow 0.3s ease;
+
+            &:hover {
+                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); 
+            }
+            &:active {
+                box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1); /* Тень при клике */
+            }
+
+            span{
+                font-size: 34px;
+                color: black;
+            }
+
+            .card_title {
+                font-family: "Hind Siliguri", sans-serif;
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 30px;
+                margin-top: 24px;
+                color: dark;
+            }
+
+            .card_text {
+                width: 220px;
+                height: 46px;
+                font-family: "Hind Siliguri", sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22.64px;
+                text-align: center;
+                color: #BDBDBD; 
+            }
+
+            img {
+                width: 64px;
+                height: 64px;
+            }
+        }
+    }
+}

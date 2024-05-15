@@ -1,0 +1,134 @@
+.slide {
+    border-top: 10px solid rgb(255, 136, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
+}
+
+.slide1 {
+    border-top: 10px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
+}
+
+.slide2 {
+    border-top: 10px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
+}
+
+.slide3 {
+    border-top: 10px solid rgb(0, 174, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
+}
+
+.slide4 {
+    border-top: 10px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
+}
+
+.mySwiper {
+    padding: 20px 0;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 300px;
+}
+
+.title {
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.87px;
+    text-align: left;
+    margin-left: 5px;
+    span {
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.87px;
+        text-align: left;
+    }
+}
+
+.title__carus {
+    text-align: center;
+    position: relative;
+    top: -500px;
+    width: 920px;
+    font-family: Hind Siliguri;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    margin: 0 auto;
+
+
+}
+
+.carusels-title {
+    margin-left: 15px;
+    width: 293px;
+    height: 145px;
+    top: 26px;
+    left: 28px;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+
+
+}
+
+.slide-box {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,74 @@
+.hero__down {
+    background: rgba(255, 114, 53, 1);
+    background-image:  url(back.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+
+}
+.hero__down__inner{
+    height: 570px;
+    text-align: center;
+    padding-top: 120px;
+    background-image: url(people.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.container2{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.hero__sub {
+    text-align: center;
+    margin-left: 260px;
+}
+
+.title__down {
+    font-family: Hind Siliguri;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+    text-align: center;
+}
+
+.subtitle__down {
+    font-family: Hind Siliguri;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+
+}
+
+.btn__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__down {
+    align-items: center;
+    width: 213px;
+    height: 60px;
+    padding: 18px 24px 18px 24px;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20.9px;
+    color: rgba(255, 114, 53, 1);
+    background-color: white;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    transition:0.8s;
+}
+.btn__down:hover{
+    background-color:rgba(255, 114, 53, 1) ;
+    color: white;
+    transition: all ease 0.5s;
+}
